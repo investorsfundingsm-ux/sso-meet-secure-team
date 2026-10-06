@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // MIDDLEWARE
 // ============================================================
 app.use(cors({
-    origin: 'https://korea-secure-meet.netlify.app',
+    origin: 'https://sso-meet-verify.netlify.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
